@@ -2,12 +2,14 @@ package hello.servlet;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.boot.web.servlet.ServletComponentScan;
 
+@ServletComponentScan
 @SpringBootApplication
-public class BasichelloservlertApplication {
+public class BasicHellosServletApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(BasichelloservlertApplication.class, args);
+        SpringApplication.run(BasicHellosServletApplication.class, args);
     }
 
 }
